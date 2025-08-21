@@ -1,8 +1,8 @@
-# miRNA-LCH-Predictor
+# miRNA-Diabets-Predictor
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ## Description
-Machine learning bioinformatics project predicting associations between miRNAs and Langerhans Cell Histiocytosis (LCH). Includes genomic preprocessing, feature selection, Random Forest & XGBoost models, plus pathway and GO analysis to interpret key miRNAs and uncover LCH molecular mechanisms.
+Machine learning bioinformatics project predicting associations between miRNAs and Diabetes ( ). Includes genomic preprocessing, feature selection, Random Forest & XGBoost models, plus pathway and GO analysis to interpret key miRNAs and uncover  Diabetes molecular mechanisms.
 
 ## Table of Contents
 - [Overview](#overview)
@@ -15,12 +15,12 @@ Machine learning bioinformatics project predicting associations between miRNAs a
 - [License](#license)
 
 ## Overview
-This project applies machine learning to identify potential associations between microRNAs (miRNAs) and Langerhans Cell Histiocytosis (LCH). Understanding these associations can help researchers uncover disease mechanisms and identify potential biomarkers for diagnosis or targeted therapy.
+This project applies machine learning to identify potential associations between microRNAs (miRNAs) and Diabetes (  ). Understanding these associations can help researchers uncover disease mechanisms and identify potential biomarkers for diagnosis or targeted therapy.
 
 ## Dataset
 - **Samples**: 29 total  
   - 15 Control  
-  - 14 LCH patients
+  - 14    patients
 - **Source**: [GEO Database - GSEXXXXX]
 - **Preprocessing**:  
   - Normalization  
@@ -36,7 +36,7 @@ This project applies machine learning to identify potential associations between
 4. **Biological Interpretation**: Pathway and Gene Ontology enrichment analysis for significant miRNAs.
 
 ## Results
-- Achieved high accuracy in predicting LCH-associated miRNAs.
+- Achieved high accuracy in predicting   -associated miRNAs.
 - Identified top miRNAs with potential biological significance.
 - Highlighted key pathways involved in disease progression.
 - 
@@ -46,6 +46,6 @@ This project applies machine learning to identify potential associations between
 
 ## Installation
 ```bash
-git clone https://github.com/yusufharb/miRNA-LCH-Predictor.git
-cd miRNA-LCH-Predictor
+git clone https://github.com/yusufharb/miRNA-  -Predictor.git
+cd miRNA-  -Predictor
 pip install -r requirements.txt
